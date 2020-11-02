@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color:  rgb(239,227,243);
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+}
+.header{  
+      margin: 6rem;
+      text-align: center;
+      font-weight: 200;
+      font-size: 3.5rem;
+}
+
+img{
+    height: 200px;
+    margin:auto;
+    max-width:200px;
+
+}
+
+.card{
+    color:#d5c7bf;
+    margin: 1rem auto;
+    width: 60vw;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: rgb(48,38,43, 0.9);
+    font-size: 1.3rem;
+}
+.sub-header{
+    
+    text-align: center;
+    color:rgb(48,38,43);
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.book-details{
+    margin: auto;
+    text-align:center;
+    font-weight: 300;  
+}
+
+.bookName{
+    font-size: 1.3rem;
+}
+.bookName, .price, .book-link{
+    margin-bottom: 0.5rem;
+}
+.author{
+    font-size: 1rem;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: rgb(48,38,43);
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#brand{
+   font-size: 2.5rem;
+}
+.nav-links{
+    margin: auto 0;
+    
+}
+.nav-link{
+    color: #d5c7bf;
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+.book-link{
+    color: #487eb0;
+   
+}

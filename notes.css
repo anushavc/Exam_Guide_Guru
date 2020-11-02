@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: rgb(239,227,243);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textarea{
+    
+    background-color:rgb(48,38,43);
+    width: 60%;
+    border: none;
+    padding: 2rem;
+    border-radius: 10px;
+    outline: none;
+    min-height: 40vh;
+    font-size: 2rem;
+    overflow: auto;
+    color:rgb(239,227,243);
+
+}
+form{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.container{
+    margin: 7rem auto;
+}
+
+.update-btn{
+    margin: 2rem;
+    background-color:rgb(48,38,43, 0.8);
+    color:rgb(239,227,243);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 200;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    outline: none;
+}
+.update-btn:active{
+    outline: none;
+}
+
+
+a, a:visited{
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: rgb(48,38,43);
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#brand{
+   font-size: 2.5rem;
+}
+.nav-links{
+    margin: auto 0;
+    
+}
+.nav-link{
+    color: rgb(239,227,243);
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+.header{  
+    margin: 6rem;
+    text-align: center;
+    font-weight: 200;
+    font-size: 3.5rem;
+}
